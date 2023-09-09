@@ -75,6 +75,11 @@ h2 {
 
 }
 
+.instructions {
+    cursor: url("/assets/icons/cursor_intrucoes.png"), auto;
+   
+   }
+
 a {
     text-decoration: none;
     color: white;
@@ -92,4 +97,27 @@ li {
 
 .ingredients-list {
     margin-bottom: 50px;
+}
+
+p,
+li {
+    line-height: 28px;
+}
+
+.footer {
+    background-color: #ff6b28;
+    color: blanchedalmond;
+    padding: 15px;
+    text-align: center;
+}
+
+.text-footer {
+    max-width: 500px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.link-email {
+    color: blanchedalmond;
 }
